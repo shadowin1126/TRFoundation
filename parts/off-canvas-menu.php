@@ -18,6 +18,7 @@
 			<li><a href="/thailand/">Thailand</a></li>
 			<li>
 				<dl class="accordion" data-accordion>
+					<dt></dt>
 					<dd class="accordion-navigation">
 						<a href="#station-list-panel">Station List &nbsp; <span class="fa fa-caret-down"></span></a>
 						<div id="station-list-panel" class="content">
@@ -27,7 +28,7 @@
 							</ul>
 
 						</div>
-					</dd>  
+					</dd>
 				</dl>
 			</li>
 		</ul>
