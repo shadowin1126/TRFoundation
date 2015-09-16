@@ -8,12 +8,11 @@
  */
 
 ?>
+
 <aside class="left-off-canvas-menu" aria-hidden="true">
-	<div class="title-area">
-			<a href="http://top-radio.org"><img src="http://top-radio.org/wp-content/uploads/2015/05/TR01.png" alt="TopRadio"></a>
-	</div>
 	<section class="top-bar-section">
 		<ul class="left">
+			<li><a href="http://top-radio.org">TopRadio</a></li>
 			<li><a href="/malaysia/">Malaysia</a></li>
 			<li><a href="/thailand/">Thailand</a></li>
 			<li>
@@ -24,6 +23,7 @@
 						<div id="station-list-panel" class="content">
 							<ul>
 								<li><a href="/country/">By Country</a></li>
+								<li><a href="/genre/">By Genre</a></li>
 								<li><a href="/station/">By Station</a></li>
 							</ul>
 

@@ -10,6 +10,26 @@
  */
 
 ?>
+<style type='text/css'>
+.autoCenter {
+    margin: 0 auto;
+}
+.bbBody {
+    font-size: 12px;
+    text-align: center;
+}
+.trBottomBar {
+    width: 100%;
+    height: 60px;
+    background-color: #A9D0F5;
+}
+#trBbInner {
+    background-color: #A9D0F5;
+    width: 400px;
+    padding-top: 8px;
+}
+
+</style>
 
 </section>
 <footer class="row">
