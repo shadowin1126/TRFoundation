@@ -7,7 +7,7 @@ get_header(); ?>
 
 
 <style type='text/css'>
-.mainButton1 {
+.mainButton {
   background: #f7fafc;
   background-image: -webkit-linear-gradient(top, #f7fafc, #89ccf5);
   background-image: -moz-linear-gradient(top, #f7fafc, #89ccf5);
@@ -20,89 +20,13 @@ get_header(); ?>
   font-family: Arial;
   color: #ffffff;
   font-size: 18px;
+  margin-bottom: 10px;
   padding: 10px 20px 10px 20px;
+  display: inline-block;
   text-decoration: none;
 }
 
-.mainButton1:hover {
-  background: #c3e5fa;
-  background-image: -webkit-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -moz-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -ms-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -o-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: linear-gradient(to bottom, #c3e5fa, #60befc);
-  text-decoration: none;
-}
-.mainButton2 {
-  background: #f7fafc;
-  background-image: -webkit-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -moz-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -ms-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -o-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: linear-gradient(to bottom, #f7fafc, #89ccf5);
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.mainButton2:hover {
-  background: #c3e5fa;
-  background-image: -webkit-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -moz-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -ms-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -o-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: linear-gradient(to bottom, #c3e5fa, #60befc);
-  text-decoration: none;
-}
-.mainButton3 {
-  background: #f7fafc;
-  background-image: -webkit-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -moz-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -ms-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -o-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: linear-gradient(to bottom, #f7fafc, #89ccf5);
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 14px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.mainButton3:hover {
-  background: #c3e5fa;
-  background-image: -webkit-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -moz-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -ms-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -o-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: linear-gradient(to bottom, #c3e5fa, #60befc);
-  text-decoration: none;
-}
-.mainButton4 {
-  background: #f7fafc;
-  background-image: -webkit-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -moz-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -ms-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -o-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: linear-gradient(to bottom, #f7fafc, #89ccf5);
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 11px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.mainButton4:hover {
+.mainButton:hover {
   background: #c3e5fa;
   background-image: -webkit-linear-gradient(top, #c3e5fa, #60befc);
   background-image: -moz-linear-gradient(top, #c3e5fa, #60befc);
@@ -157,32 +81,35 @@ get_header(); ?>
 		<div class="row">
 			<h4>Popular Genres</h4>
 			<div class="panel callout radius text-center">
-				<a style="margin: 4px;" href="/genre/top-40/" class="mainButton1">Top 40</a>
-				<a style="margin: 4px;" href="/genre/70s/" class="mainButton1">70s</a>
-				<a style="margin: 4px;" href="/genre/pop/" class="mainButton1">Pop</a>
-				<a style="margin: 4px;" href="/genre/rnb/" class="mainButton1">R&B</a>
-				<a style="margin: 4px;" href="/genre/80s/" class="mainButton1">80s</a>
-				<br /><br />
-				<a style="margin: 4px;" href="/genre/easy-listening/" class="mainButton2">Easy Listening</a>
-				<a style="margin: 4px;" href="/genre/country/" class="mainButton2">Country</a>
-				<a style="margin: 4px;" href="/genre/60s/" class="mainButton2">60s</a>
-				<a style="margin: 4px;" href="/genre/jazz/" class="mainButton2">Jazz</a>
-				<br /><br />
-				<a style="margin: 4px;" href="/genre/chillout/" class="mainButton2">Chillout</a>
-				<a style="margin: 4px;" href="/genre/rock/" class="mainButton2">Rock</a>
-				<a style="margin: 4px;" href="/genre/classical/" class="mainButton2">Classical</a>
-				<a style="margin: 4px;" href="/genre/blues/" class="mainButton2">Blues</a>
-				<br /><br />
-				<a style="margin: 4px;" href="/genre/ambient/" class="mainButton3">Ambient</a>
-				<a style="margin: 4px;" href="/genre/bollywood/" class="mainButton3">Bollywood</a>
-				<a style="margin: 4px;" href="/genre/oldies/" class="mainButton3">Oldies</a>
-				<a style="margin: 4px;" href="/genre/techno/" class="mainButton3">Techno</a>
-				<br /><br />
-				<a style="margin: 4px;" href="/genre/alternative/" class="mainButton4">Alternative</a>
-				<a style="margin: 4px;" href="/genre/soul/" class="mainButton4">Soul</a>
-				<a style="margin: 4px;" href="/genre/funk/" class="mainButton4">Funk</a>
-				<a style="margin: 4px;" href="/genre/hip-hop/" class="mainButton4">Hip Hop</a>
-				<a style="margin: 4px;" href="/genre/news/" class="mainButton4">News</a>
+				<a style="margin: 4px;" href="/genre/top-40/" class="mainButton">Top 40</a>
+				<a style="margin: 4px;" href="/genre/70s/" class="mainButton">70s</a>
+				<a style="margin: 4px;" href="/genre/pop/" class="mainButton">Pop</a>
+				<a style="margin: 4px;" href="/genre/rnb/" class="mainButton">R&B</a>
+				<a style="margin: 4px;" href="/genre/80s/" class="mainButton">80s</a>
+				<a style="margin: 4px;" href="/genre/easy-listening/" class="mainButton">Easy Listening</a>
+				<a style="margin: 4px;" href="/genre/country/" class="mainButton">Country</a>
+				<a style="margin: 4px;" href="/genre/60s/" class="mainButton">60s</a>
+				<a style="margin: 4px;" href="/genre/jazz/" class="mainButton">Jazz</a>
+				<a style="margin: 4px;" href="/genre/chillout/" class="mainButton">Chillout</a>
+				<a style="margin: 4px;" href="/genre/rock/" class="mainButton">Rock</a>
+				<a style="margin: 4px;" href="/genre/classical/" class="mainButton">Classical</a>
+				<a style="margin: 4px;" href="/genre/blues/" class="mainButton">Blues</a>
+				<a style="margin: 4px;" href="/genre/ambient/" class="mainButton">Ambient</a>
+				<a style="margin: 4px;" href="/genre/metal/" class="mainButton">Metal</a>
+				<a style="margin: 4px;" href="/genre/bollywood/" class="mainButton">Bollywood</a>
+				<a style="margin: 4px;" href="/genre/oldies/" class="mainButton">Oldies</a>
+				<a style="margin: 4px;" href="/genre/techno/" class="mainButton">Techno</a>
+				<a style="margin: 4px;" href="/genre/90s/" class="mainButton">90s</a>
+				<a style="margin: 4px;" href="/genre/dance/" class="mainButton">Dance</a>
+				<a style="margin: 4px;" href="/genre/alternative/" class="mainButton">Alternative</a>
+				<a style="margin: 4px;" href="/genre/soul/" class="mainButton">Soul</a>
+				<a style="margin: 4px;" href="/genre/funk/" class="mainButton">Funk</a>
+				<a style="margin: 4px;" href="/genre/sports/" class="mainButton">Sports</a>
+				<a style="margin: 4px;" href="/genre/hip-hop/" class="mainButton">Hip Hop</a>
+				<a style="margin: 4px;" href="/genre/reggae/" class="mainButton">Reggae</a>
+				<a style="margin: 4px;" href="/genre/news/" class="mainButton">News</a>
+				<a style="margin: 4px;" href="/genre/indie/" class="mainButton">Indie</a>
+				<a style="margin: 4px;" href="/genre/disco/" class="mainButton">Disco</a>
 			</div>
 			<?
 			/**
@@ -201,6 +128,21 @@ get_header(); ?>
 			</marquee>
 			**/
 			?>
+		</div>
+		<div class="row">
+			<h4>Top 10 Stations</h4>
+			<div class="panel callout radius text-center">
+				<a style="margin: 4px;" href='/united-states/1027-kiis-fm-kvvs/'><img src='/wp-content/uploads/logo/8aSua9MVFh.jpg' alt='1027-kiis-fm-kvvs' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/united-kingdom/heart-london-1062/'><img src='/wp-content/uploads/logo/rFGM25552n.jpg' alt='heart-london-1062' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/united-kingdom/bbc-world-service/'><img src='/wp-content/uploads/logo/Lz9bbsba4b.jpg' alt='bbc-world-service' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/china/voa-voice-of-america/'><img src='/wp-content/uploads/logo/nDEh77F56e.jpg' alt='voa-voice-of-america' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/united-states/jazz24/'><img src='/wp-content/uploads/logo/qtPqwNwvkK.jpg' alt='jazz24' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/greece/kiss-911-fm/'><img src='/wp-content/uploads/logo/gpcPrLtyX3.jpg' alt='kiss-911-fm' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/australia/gold-fm/'><img src='/wp-content/uploads/logo/XAryWL2prn.jpg' alt='gold-fm' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/argentina/radio-mitre/'><img src='/wp-content/uploads/logo/RrNKZyK6Ws.jpg' alt='radio-mitre' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/czech-republic/evropa2/'><img src='/wp-content/uploads/logo/4eYJ2UArA8.jpg' alt='evropa2' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/netherlands/q-music/'><img src='/wp-content/uploads/logo/zUnUVPKKmc.jpg' alt='q-music' height="60" width="110"></a>
+			</div>
 		</div>
 	</div>
 	
