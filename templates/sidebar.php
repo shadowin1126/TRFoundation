@@ -69,7 +69,7 @@ get_header(); ?>
 			<br />
 			<div class="panel callout radius mainpage-search">
 				<h4>Search the world of radio</h4>
-				<form action="/search/" onsubmit="location.href='http://top-radio.org/search/?q=' + document.getElementById('mainsearch-text').value; return false;">
+				<form action="/search/" onsubmit="location.href='/search/?q=' + document.getElementById('mainsearch-text').value; return false;">
 				<input id="mainsearch-text" type="text" name="q" autocomplete="off" class="form-control input-sm ng-pristine ng-valid" placeholder="Search">
 				<div class="searchButton" onclick="location.href='/search/?q=' + document.getElementById('mainsearch-text').value;"><i class="fa fa-search"></i></div>
 				</form>

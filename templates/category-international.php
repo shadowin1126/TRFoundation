@@ -20,7 +20,7 @@ get_header(); ?>
 			echo '<ul>';
 			foreach ($results as $row) {
 				if (strpos($row->description,$category) !== false) {
-					$link = 'http://top-radio.org/'.$row->country_id.'/'.$row->tag.'/';
+					$link = '/'.$row->country_id.'/'.$row->tag.'/';
 					echo "<li><a href=$link>".$row->name.' ('.$row->country.')'."</a></li><br />";
 				}
 			}

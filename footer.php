@@ -20,7 +20,7 @@
 }
 .trBottomBar {
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: #A9D0F5;
 }
 #trBbInner {
