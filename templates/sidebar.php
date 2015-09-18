@@ -144,6 +144,21 @@ get_header(); ?>
 				<a style="margin: 4px;" href='/netherlands/q-music/'><img src='/wp-content/uploads/logo/zUnUVPKKmc.jpg' alt='q-music' height="60" width="110"></a>
 			</div>
 		</div>
+		<div class="row">
+			<h4>Featured Stations</h4>
+			<div class="panel callout radius text-center">
+				<a style="margin: 4px;" href='/united-kingdom/planet-rock/'><img src='/wp-content/uploads/logo/evRXTks8hM.jpg' alt='planet-rock' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/united-kingdom/100-chill/'><img src='/wp-content/uploads/logo/QyW7CLuwYq.jpg' alt='100-chill' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/macedonia/sky-radio/'><img src='/wp-content/uploads/logo/9XYasEagQA.jpg' alt='sky-radio' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/malaysia/my-fm/'><img src='/wp-content/uploads/logo/my-fm.jpg' alt='my-fm' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/thailand/seed-fm/'><img src='/wp-content/uploads/logo/seed-fm.jpg' alt='seed-fm' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/denmark/dr-p3/'><img src='/wp-content/uploads/logo/xZkz47Tm5w.jpg' alt='dr-p3' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/sweden/bandit-rock/'><img src='/wp-content/uploads/logo/BzteSWH8ZU.jpg' alt='bandit-rock' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/latvia/capital-fm-949/'><img src='/wp-content/uploads/logo/kWZtZaBTnJ.jpg' alt='capital-fm-949' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/armenia/radio-aurora-classic/'><img src='/wp-content/uploads/logo/RgF633y9yY.jpg' alt='radio-aurora-classic' height="60" width="110"></a>
+				<a style="margin: 4px;" href='/nigeria/magic-fm/'><img src='/wp-content/uploads/logo/Kk9duFK9AP.jpg' alt='magic-fm' height="60" width="110"></a>
+			</div>
+		</div>
 	</div>
 	
 	<div id="page">
