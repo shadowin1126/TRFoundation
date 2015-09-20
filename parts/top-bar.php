@@ -7,39 +7,6 @@
  * @since FoundationPress 1.0
  */
 
-?>
-
-<style type='text/css'>
-.navbar-search input {
-  background: #2E70A9;
-  margin-top: 1px;
-  color: #475058;
-  border-color: #002342;
-  padding-right: 30px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.navbar-search .searchButton {
-  background: #2E70A9;
-  position: absolute;
-  right: 16px;
-  top: 2px;
-  height: 26px;
-  line-height: 1.5;
-  margin-top: 9px;
-  padding: 2px 10px;
-  color: #FFFFFF;
-  cursor: pointer;
-  border-left: 1px solid rgba(255,255,255,0.1);
-  -webkit-box-shadow: -1px 0 0 #002342;
-  box-shadow: -1px 0 0 #002342;
-  text-shadow: 0px 2px 0px #002342;
-}
-</style>
-
-<?
 global $wpdb;
 $results = $wpdb->get_results("select ID, name FROM radio_station_list");
 ?>

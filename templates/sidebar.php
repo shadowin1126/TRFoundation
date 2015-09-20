@@ -4,66 +4,6 @@ Template Name: Sidebar
 */
 get_header(); ?>
 <div class="row">
-
-
-<style type='text/css'>
-.mainButton {
-  background: #f7fafc;
-  background-image: -webkit-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -moz-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -ms-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: -o-linear-gradient(top, #f7fafc, #89ccf5);
-  background-image: linear-gradient(to bottom, #f7fafc, #89ccf5);
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 18px;
-  margin-bottom: 10px;
-  padding: 10px 20px 10px 20px;
-  display: inline-block;
-  text-decoration: none;
-}
-
-.mainButton:hover {
-  background: #c3e5fa;
-  background-image: -webkit-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -moz-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -ms-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: -o-linear-gradient(top, #c3e5fa, #60befc);
-  background-image: linear-gradient(to bottom, #c3e5fa, #60befc);
-  text-decoration: none;
-}
- .mainpage-search input {
-  background: #FFFFFF;
-  margin-top: 0px;
-  color: #475058;
-  border-color: #002342;
-  padding-right: 30px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.mainpage-search .searchButton {
-  background: #FFFFFF;
-  position: absolute;
-  right: 25px;
-  top: 2px;
-  height: 30px;
-  line-height: 1.5;
-  margin-top: 77px;
-  padding: 5px 10px;
-  color: #000000;
-  cursor: pointer;
-  border-left: 1px solid rgba(255,255,255,0.1);
-  -webkit-box-shadow: -1px 0 0 #002342;
-  box-shadow: -1px 0 0 #002342;
-  text-shadow: 0px 2px 0px #002342;
-}
-</style>
-
 	<div class="large-8 medium-8 small-12 columns">
 		<div class="row">
 			<br />
