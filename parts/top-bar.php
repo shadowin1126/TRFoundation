@@ -50,7 +50,7 @@ if (isset($data[1])) {
 }
 if ($data[0]) {
 	echo '<div class="row">';
-		echo '<div class="medium-12 columns">';
+		echo '<div class="small-12 columns">';
 				echo '<ul class="breadcrumbs">';
 				if (isset($data[1])) {
 					echo '<li><a href="/">Home</a></li>';

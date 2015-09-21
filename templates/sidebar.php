@@ -6,15 +6,37 @@ get_header(); ?>
 <div class="row">
 	<div class="large-8 medium-8 small-12 columns">
 		<div class="row">
+			<div style="height:90px;width:728px;">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Top-Radio Top -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-0047723350429793"
+				 data-ad-slot="5303669051"
+				 data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			</div>
+		</div>
+		<div class="row">
 			<br />
-			<div class="panel callout radius mainpage-search">
+			<div class="panel callout radius">
 				<h4>Search the world of radio</h4>
 				<form action="/search/" onsubmit="location.href='/search/?q=' + document.getElementById('mainsearch-text').value; return false;">
-				<input id="mainsearch-text" type="text" name="q" autocomplete="off" class="form-control input-sm ng-pristine ng-valid" placeholder="Search">
-				<div class="searchButton" onclick="location.href='/search/?q=' + document.getElementById('mainsearch-text').value;"><i class="fa fa-search"></i></div>
+				<div class="row">
+					<div class="large-12 small-12 columns">
+					<div class="small-10 columns">
+						<input id="mainsearch-text" type="text" name="q" autocomplete="off" class="form-control input-sm ng-pristine ng-valid" placeholder="Search">
+					</div>
+					<div class="small-2 columns">
+						<a class="button postfix" onclick="location.href='/search/?q=' + document.getElementById('mainsearch-text').value;">Go</a>
+					</div>
+					</div>
+				</div>
 				</form>
 				<br /><br />
-				<a>Search from tens of thousands of radio stations from all over the world playing only the best music from every genre.</a>
+				<p>Search from tens of thousands of radio stations from all over the world playing only the best music from every genre.</p>
 			</div>
 		</div>
 	
@@ -99,6 +121,22 @@ get_header(); ?>
 				<a style="margin: 4px;" href='/nigeria/magic-fm/'><img src='/wp-content/uploads/logo/Kk9duFK9AP.jpg' alt='magic-fm' height="60" width="110"></a>
 			</div>
 		</div>
+		<!-- Ads -->
+		<div class="row">
+			<div style="height:90px;width:728px;">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Top-Radio Bottom -->
+				<ins class="adsbygoogle"
+					 style="display:block"
+					 data-ad-client="ca-pub-0047723350429793"
+					 data-ad-slot="2474627056"
+					 data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+		
 	</div>
 	
 	<div id="page">
