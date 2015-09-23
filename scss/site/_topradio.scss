@@ -76,7 +76,7 @@
   top: 2px;
   height: 30px;
   line-height: 1.5;
-  margin-top: 77px;
+  margin-top: 150px;
   padding: 5px 10px;
   color: #000000;
   cursor: pointer;
@@ -102,4 +102,8 @@
     background-color: #A9D0F5;
     width: 400px;
     padding-top: 8px;
+}
+// set vertical spacing for li tag
+li {
+    margin-bottom: 10px;
 }

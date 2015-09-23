@@ -22,7 +22,7 @@ get_header(); ?>
 		<div class="row">
 			<br />
 			<div class="panel callout radius">
-				<h4>Search the world of radio</h4>
+				<h2>Search the world of radio</h2>
 				<form action="/search/" onsubmit="location.href='/search/?q=' + document.getElementById('mainsearch-text').value; return false;">
 				<div class="row">
 					<div class="large-12 small-12 columns">
@@ -41,12 +41,12 @@ get_header(); ?>
 		</div>
 	
 		<div class="row">
-			<h4>Popular Genres</h4>
+			<h2>Popular Genres</h2>
 			<div class="panel callout radius text-center">
 				<a style="margin: 4px;" href="/genre/top-40/" class="mainButton">Top 40</a>
 				<a style="margin: 4px;" href="/genre/70s/" class="mainButton">70s</a>
 				<a style="margin: 4px;" href="/genre/pop/" class="mainButton">Pop</a>
-				<a style="margin: 4px;" href="/genre/rnb/" class="mainButton">R&B</a>
+				<a style="margin: 4px;" href="/genre/rnb/" class="mainButton">R&amp;B</a>
 				<a style="margin: 4px;" href="/genre/80s/" class="mainButton">80s</a>
 				<a style="margin: 4px;" href="/genre/easy-listening/" class="mainButton">Easy Listening</a>
 				<a style="margin: 4px;" href="/genre/country/" class="mainButton">Country</a>
@@ -92,7 +92,7 @@ get_header(); ?>
 			?>
 		</div>
 		<div class="row">
-			<h4>Top 10 Stations</h4>
+			<h2>Top 10 Stations</h2>
 			<div class="panel callout radius text-center">
 				<a style="margin: 4px;" href='/united-states/1027-kiis-fm-kvvs/'><img src='/wp-content/uploads/logo/8aSua9MVFh.jpg' alt='1027-kiis-fm-kvvs' height="60" width="110"></a>
 				<a style="margin: 4px;" href='/united-kingdom/heart-london-1062/'><img src='/wp-content/uploads/logo/rFGM25552n.jpg' alt='heart-london-1062' height="60" width="110"></a>
@@ -107,7 +107,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row">
-			<h4>Featured Stations</h4>
+			<h2>Featured Stations</h2>
 			<div class="panel callout radius text-center">
 				<a style="margin: 4px;" href='/united-kingdom/planet-rock/'><img src='/wp-content/uploads/logo/evRXTks8hM.jpg' alt='planet-rock' height="60" width="110"></a>
 				<a style="margin: 4px;" href='/united-kingdom/100-chill/'><img src='/wp-content/uploads/logo/QyW7CLuwYq.jpg' alt='100-chill' height="60" width="110"></a>

@@ -40,7 +40,7 @@ get_header(); ?>
 					$country = $row->country;
 					$count = $wpdb->get_var( "SELECT COUNT(*) FROM radio_station_list WHERE country_id = '$countryID'" );
 					$link = 'http://top-radio.org/'.$countryID.'/';
-					echo "<li><a href=$link>".$country.' ('.$count.')'."</a></li><br />";
+					echo "<li><a href=$link>".$country.' ('.$count.')'."</a></li>";
 				}
 			}
 			echo '</ul>';

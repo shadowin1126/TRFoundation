@@ -21,7 +21,7 @@ get_header(); ?>
 			foreach ($results as $row) {
 				if (strpos($row->description,$category) !== false) {
 					$link = '/'.$row->country_id.'/'.$row->tag.'/';
-					echo "<li><a href=$link>".$row->name.' ('.$row->country.')'."</a></li><br />";
+					echo "<li><a href=$link>".$row->name.' ('.$row->country.')'."</a></li>";
 				}
 			}
 			echo '</ul>';

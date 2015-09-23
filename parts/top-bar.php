@@ -12,7 +12,7 @@ $results = $wpdb->get_results("select ID, name FROM radio_station_list");
 ?>
 
 <div class="top-bar-container contain-to-grid sticky show-for-medium-up">
-    <nav class="top-bar" data-topbar role="navigation">
+    <nav class="top-bar" data-topbar>
         <div class="small-2 columns">
         	<ul class="title-area">
             	<li class="name">
