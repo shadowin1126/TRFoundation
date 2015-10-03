@@ -6,7 +6,6 @@ get_header(); ?>
 <div class="row">
 	<div class="large-8 medium-8 small-12 columns">
 		<div class="row">
-			<div style="height:90px;width:728px;">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- Top-Radio Top -->
 			<ins class="adsbygoogle"
@@ -17,7 +16,6 @@ get_header(); ?>
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-			</div>
 		</div>
 		<div class="row">
 			<br />
@@ -123,7 +121,7 @@ get_header(); ?>
 		</div>
 		<!-- Ads -->
 		<div class="row">
-			<div style="height:90px;width:728px;">
+			<div>
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- Top-Radio Bottom -->
 				<ins class="adsbygoogle"
@@ -136,6 +134,7 @@ get_header(); ?>
 				</script>
 			</div>
 		</div>
+		<br />
 		
 	</div>
 	
