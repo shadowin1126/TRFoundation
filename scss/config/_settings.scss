@@ -79,7 +79,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
-// $row-width: rem-calc(1000);
+// $row-width: rem-calc(1080);
 // $total-columns: 12;
 // $column-gutter: rem-calc(30);
 
@@ -407,7 +407,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-nav-classes: $include-html-classes;
 
 // We use this to set the background color for the breadcrumb container.
-// $crumb-bg: scale-color($secondary-color, $lightness: 55%);
+ $crumb-bg: #FFFFFF; //shadowin
 
 // We use these to set the padding around the breadcrumbs.
 // $crumb-padding: rem-calc(9 14 9);
@@ -416,7 +416,7 @@ $include-html-global-classes: $include-html-classes;
 // We use these to control border styles.
 // $crumb-function-factor: -10%;
 // $crumb-border-size: 1px;
-// $crumb-border-style: solid;
+ $crumb-border-style: none;
 // $crumb-border-color: scale-color($crumb-bg, $lightness: $crumb-function-factor);
 // $crumb-radius: $global-radius;
 
@@ -1484,31 +1484,3 @@ $topbar-bg-color: #A9D0F5;
 // $include-accessibility-classes: true;
 // $include-table-visibility-classes: true;
 // $include-legacy-visibility-classes: true;
-
-.navbar-search input {
-  background: #084e8d;
-  margin-top: 6px;
-  color: #ffffff;
-  border-color: #002342;
-  padding-right: 35px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.navbar-search .searchButton {
-  background: #A9D0F5;
-  position: absolute;
-  right: 265px;
-  top: 0;
-  height: 24px;
-  line-height: 1.5;
-  margin-top: 9px;
-  padding: 2px 10px;
-  color: #002342;
-  cursor: pointer;
-  border-left: 1px solid rgba(255,255,255,0.1);
-  -webkit-box-shadow: -1px 0 0 #002342;
-  box-shadow: -1px 0 0 #002342;
-  text-shadow: 0px 2px 0px #002342;
-}
