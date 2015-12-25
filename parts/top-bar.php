@@ -12,14 +12,14 @@ $results = $wpdb->get_results("select ID, name FROM radio_station_list");
 ?>
 
 <div class="top-bar-container contain-to-grid sticky show-for-medium-up">
-    <nav class="top-bar" data-topbar>
-        <div class="small-2 columns">
-        	<ul class="title-area">
-            	<li class="name">
-            	    <a href="http://top-radio.org"><img src="/wp-content/uploads/2015/05/TR01.png" alt="TopRadio"></a>
-          	 	</li>
-        	</ul>
-        </div>
+	<nav class="top-bar" data-topbar>
+		<div class="small-2 columns">
+    		<ul class="title-area">
+				<li class="name">
+					<a href="http://top-radio.org"><img src="/wp-content/uploads/2015/05/TR01.png" alt="TopRadio"></a>
+				</li>
+			</ul>
+		</div>
 		<section class="top-bar-section">
 			<div class="small-5 columns">
 				<ul class="left">
@@ -38,7 +38,7 @@ $results = $wpdb->get_results("select ID, name FROM radio_station_list");
 				</form>
 			</div>
 		</section>
-    </nav>
+	</nav>
 </div>
 
 <!-- breadcrumbs -->
