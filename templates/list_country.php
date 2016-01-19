@@ -39,7 +39,7 @@ get_header(); ?>
 					$countryID = $row->country_id;
 					$country = $row->country;
 					$count = $wpdb->get_var( "SELECT COUNT(*) FROM radio_station_list WHERE country_id = '$countryID'" );
-					$link = 'http://top-radio.org/'.$countryID.'/';
+					$link = 'https://top-radio.org/'.$countryID.'/';
 					echo "<li><a href=$link>".$country.' ('.$count.')'."</a></li>";
 				}
 			}
@@ -66,9 +66,7 @@ get_header(); ?>
 			<?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
 			<p><?php the_tags(); ?></p>
 		</footer>
-		<?php comments_template(); ?>
-
-
+		<?php // comments_template(); ?>
 	</div>
 </div>
 

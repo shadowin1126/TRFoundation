@@ -17,7 +17,7 @@ get_header(); ?>
 			<?php
 			echo '<hr><br /><br /><br />';
 			foreach ($results as $row) {
-				$link = 'http://top-radio.org/'.$row->country_id.'/'.$row->tag.'/';
+				$link = 'https://top-radio.org/'.$row->country_id.'/'.$row->tag.'/';
 				echo "<li><a href=$link>".$row->name.' ('.$row->country.')'."</a></li><br />";
 			}
 			?>

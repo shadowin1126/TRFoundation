@@ -16,7 +16,7 @@ $results = $wpdb->get_results("select ID, name FROM radio_station_list");
 		<div class="small-2 columns">
     		<ul class="title-area">
 				<li class="name">
-					<a href="http://top-radio.org"><img src="/wp-content/uploads/2015/05/TR01.png" alt="TopRadio"></a>
+					<a href="https://top-radio.org"><img src="/wp-content/uploads/2015/05/TR01.png" alt="TopRadio"></a>
 				</li>
 			</ul>
 		</div>

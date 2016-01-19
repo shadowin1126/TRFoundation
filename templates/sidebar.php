@@ -6,7 +6,6 @@ get_header(); ?>
 <div class="row">
 	<div class="large-8 medium-8 small-12 columns">
 		<div class="row">
-			<div style="height:90px;width:728px;">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- Top-Radio Top -->
 			<ins class="adsbygoogle"
@@ -17,7 +16,6 @@ get_header(); ?>
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-			</div>
 		</div>
 		<div class="row">
 			<br />
@@ -78,14 +76,14 @@ get_header(); ?>
 			<h4>Featured Stations</h4>
 			<marquee direction="right" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="1" scrolldelay="45" truespeed="" height="120" style="height: 110px;">
 				<p>
-				<a href="/malaysia/melody-fm/"><img src="http://top-radio.org/wp-content/uploads/logo/melody-fm.jpg" alt="melody-fm" width="170" height="50"></a>
-				<a href="/thailand/fmone/"><img src="http://top-radio.org/wp-content/uploads/logo/fmone.jpg" alt="mix-fm" width="170" height="50"></a>
-				<a href="/malaysia/mix-fm/"><img src="http://top-radio.org/wp-content/uploads/logo/mix-fm.jpg" alt="mix-fm" width="170" height="50"></a>
-				<a href="/thailand/chill89-fm/"><img src="http://top-radio.org/wp-content/uploads/logo/chill89-fm.jpg" alt="chill89-fm" width="170" height="50"></a>
-				<a href="/malaysia/my-fm/"><img src="http://top-radio.org/wp-content/uploads/logo/my-fm.jpg" alt="mix-fm" width="170" height="50"></a>
-				<a href="/thailand/coolism/"><img src="http://top-radio.org/wp-content/uploads/logo/coolism.jpg" alt="mix-fm" width="170" height="50"></a>
-				<a href="/malaysia/bfm/"><img src="http://top-radio.org/wp-content/uploads/logo/bfm.jpg" alt="bfm" width="170" height="50"></a>
-				<a href="/thailand/baka-radio/"><img src="http://top-radio.org/wp-content/uploads/logo/baka-radio.jpg" alt="baka-radio" width="170" height="50"></a>
+				<a href="/malaysia/melody-fm/"><img src="https://top-radio.org/wp-content/uploads/logo/melody-fm.jpg" alt="melody-fm" width="170" height="50"></a>
+				<a href="/thailand/fmone/"><img src="https://top-radio.org/wp-content/uploads/logo/fmone.jpg" alt="mix-fm" width="170" height="50"></a>
+				<a href="/malaysia/mix-fm/"><img src="https://top-radio.org/wp-content/uploads/logo/mix-fm.jpg" alt="mix-fm" width="170" height="50"></a>
+				<a href="/thailand/chill89-fm/"><img src="https://top-radio.org/wp-content/uploads/logo/chill89-fm.jpg" alt="chill89-fm" width="170" height="50"></a>
+				<a href="/malaysia/my-fm/"><img src="https://top-radio.org/wp-content/uploads/logo/my-fm.jpg" alt="mix-fm" width="170" height="50"></a>
+				<a href="/thailand/coolism/"><img src="https://top-radio.org/wp-content/uploads/logo/coolism.jpg" alt="mix-fm" width="170" height="50"></a>
+				<a href="/malaysia/bfm/"><img src="https://top-radio.org/wp-content/uploads/logo/bfm.jpg" alt="bfm" width="170" height="50"></a>
+				<a href="/thailand/baka-radio/"><img src="https://top-radio.org/wp-content/uploads/logo/baka-radio.jpg" alt="baka-radio" width="170" height="50"></a>
 				</p>
 			</marquee>
 			**/
@@ -123,7 +121,7 @@ get_header(); ?>
 		</div>
 		<!-- Ads -->
 		<div class="row">
-			<div style="height:90px;width:728px;">
+			<div>
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- Top-Radio Bottom -->
 				<ins class="adsbygoogle"
@@ -136,6 +134,7 @@ get_header(); ?>
 				</script>
 			</div>
 		</div>
+		<br />
 		
 	</div>
 	
