@@ -95,13 +95,13 @@
 }
 .trBottomBar {
     width: 100%;
-    height: 50px;
+    height: 100%;
     background-color: #A9D0F5;
 }
 #trBbInner {
     background-color: #A9D0F5;
-    width: 400px;
     padding-top: 8px;
+    padding-bottom: 8px;
 }
 // set vertical spacing for li tag
 li {
