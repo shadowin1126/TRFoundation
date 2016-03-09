@@ -8,7 +8,6 @@
  * @subpackage FoundationPress
  * @since FoundationPress 1.0
  */
-
 ?>
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?> >

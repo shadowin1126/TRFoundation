@@ -15,6 +15,7 @@
 			<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="/">TopRadio</a></li>
 			<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="/country/">Country</a></li>
 			<li id="menu-item-574" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-574"><a href="/genre/">Genre</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/submit-station/">Submit Station</a></li>
 		</ul>
 		<a href="https://www.facebook.com/OnlineTopRadio"><img title="Facebook" alt="Facebook" src="/wp-content/uploads/2015/05/fb-break.png" width="35" height="35" /></a>
 		<a href="https://twitter.com/OnlineTopRadio"><img title="Twitter" alt="Twitter" src="/wp-content/uploads/2015/05/tw-break.png" width="35" height="35" /></a>

@@ -25,6 +25,7 @@ $results = $wpdb->get_results("select ID, name FROM radio_station_list");
 				<ul class="left">
 					<li><a href="/country/">Country</a></li>
 					<li><a href="/genre/">Genre</a></li>
+					<li><a href="/submit-station/">Submit Station</a></li>
 				</ul>
 			</div>
 			<div class="small-2 columns">
