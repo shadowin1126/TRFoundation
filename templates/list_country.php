@@ -11,36 +11,69 @@ get_header(); ?>
 		<!-- Ads -->
 		<div class="row">
 			<div class="large-8 small-12 columns">
-				<div style="height:90px;width:728px;margin-left:-15px">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Top-Radio Top -->
-				<ins class="adsbygoogle"
-					 style="display:block"
-					 data-ad-client="ca-pub-0047723350429793"
-					 data-ad-slot="5303669051"
-					 data-ad-format="auto"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
+				<!-- /6880916/Top-Radio-Top-728-300 -->
+				<div id='ad-top'>
+				<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('ad-top'); });
 				</script>
 				</div>
 			</div>
 		</div>
+		<br />
+		<!-- breadcrumbs -->
 		<?php
+		$data = getLastPathSegment($_SERVER['REQUEST_URI']);
+		$crumbString1 = "/".$data[0]."/";
+		if (isset($data[1])) {
+			$crumbString2 = "/".$data[0]."/".$data[1]."/";
+		}
+		if ($data[0]) {
+			echo '<div class="row">';
+				echo '<div class="small-12 columns">';
+						echo '<ul class="breadcrumbs">';
+						if (isset($data[1])) {
+							echo '<li><a href="/">Home</a></li>';
+							echo "<li><a href=$crumbString1>$data[0]</a></li>";
+							echo "<li class='current'><a href=$crumbString2>$data[1]</a></li>";
+						}
+						else {
+							echo '<li><a href="/">Home</a></li>';
+							echo "<li class='current'><a href=$crumbString1>$data[0]</a></li>";
+						}
+						echo '</ul>';
+				echo '</div>';
+			echo '</div>';
+		}
 		global $wpdb;
 		$results = $wpdb->get_results( "SELECT ID, country, country_id FROM radio_station_list" );
 		?>
 		<div class="row">
 			<div class="small-12 columns">
 			<?php
-			echo '<br /><br />';
+			echo '<br />';
 			echo '<ul>';
+			$countAD = 0;
 			foreach ($results as $row) {
 				if (empty($countryID) || ($row->country_id != $countryID)) {
 					$countryID = $row->country_id;
 					$country = $row->country;
 					$count = $wpdb->get_var( "SELECT COUNT(*) FROM radio_station_list WHERE country_id = '$countryID'" );
 					$link = 'https://top-radio.org/'.$countryID.'/';
+					if ($countAD == 10) {
+						?>
+						</ul>
+						<!-- /6880916/Top-Radio-After-728-300 -->
+						<div id='ad-after'>
+						<script type='text/javascript'>
+						googletag.cmd.push(function() { googletag.display('ad-after'); });
+						</script>
+						</div>
+						<br />
+						<ul>
+						<?php
+					}
 					echo "<li><a href=$link>".$country.' ('.$count.')'."</a></li>";
+					$countAD++;
 				}
 			}
 			echo '</ul>';
@@ -49,17 +82,13 @@ get_header(); ?>
 		</div>
 		<!-- Ads -->
 		<div class="row">
-			<div style="height:90px;width:728px;">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Top-Radio Bottom -->
-				<ins class="adsbygoogle"
-					 style="display:block"
-					 data-ad-client="ca-pub-0047723350429793"
-					 data-ad-slot="2474627056"
-					 data-ad-format="auto"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
+			<div class="small-12 columns">
+				<!-- /6880916/Top-Radio-Bottom-728-300 -->
+				<div id='ad-bottom'>
+				<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('ad-bottom'); });
 				</script>
+				</div>
 			</div>
 		</div>
 		<footer>

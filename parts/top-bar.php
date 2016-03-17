@@ -41,29 +41,3 @@ $results = $wpdb->get_results("select ID, name FROM radio_station_list");
 		</section>
 	</nav>
 </div>
-
-<!-- breadcrumbs -->
-<?php
-$data = getLastPathSegment($_SERVER['REQUEST_URI']);
-$crumbString1 = "/".$data[0]."/";
-if (isset($data[1])) {
-	$crumbString2 = "/".$data[0]."/".$data[1]."/";
-}
-if ($data[0]) {
-	echo '<div class="row">';
-		echo '<div class="small-12 columns">';
-				echo '<ul class="breadcrumbs">';
-				if (isset($data[1])) {
-					echo '<li><a href="/">Home</a></li>';
-					echo "<li><a href=$crumbString1>$data[0]</a></li>";
-					echo "<li class='current'><a href=$crumbString2>$data[1]</a></li>";
-				}
-				else {
-					echo '<li><a href="/">Home</a></li>';
-					echo "<li class='current'><a href=$crumbString1>$data[0]</a></li>";
-				}
-				echo '</ul>';
-		echo '</div>';
-	echo '</div>';
-}
-?>
